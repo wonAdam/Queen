@@ -1,0 +1,118 @@
+{
+    "normalTime": 20.0,
+    "spawnDatasInNormal": [
+        {
+            "spawnTime": 1,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 1,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 1
+        },
+        {
+            "spawnTime": 1,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 2
+        },
+        {
+            "spawnTime": 1,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 3
+        },
+        {
+            "spawnTime": 5,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 6.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 1
+        },
+        {
+            "spawnTime": 7.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 2
+        },
+        {
+            "spawnTime": 8.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 3
+        }
+    ],
+    "bigPatternTime": 15.0,
+    "bigPattern": [
+        {
+            "spawnTime": 0.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 1.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 2.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 5.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 7.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 0
+        },
+        {
+            "spawnTime": 0.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 1
+        },
+        {
+            "spawnTime": 1.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 1
+        },
+        {
+            "spawnTime": 4.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 1
+        },
+        {
+            "spawnTime": 5.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 1
+        },
+        {
+            "spawnTime": 0.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 2
+        },
+        {
+            "spawnTime": 2.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 2
+        },
+        {
+            "spawnTime": 4.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 2
+        },
+        {
+            "spawnTime": 3.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 3
+        },
+        {
+            "spawnTime": 5.0,
+            "spawnPieceCode": "Z1",
+            "spawnLineIdx": 3
+        }
+    ]
+}

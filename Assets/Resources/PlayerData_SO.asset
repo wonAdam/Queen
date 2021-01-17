@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 284d07747f1b0d4488351a631eb8c33d, type: 3}
+  m_Name: PlayerData_SO
+  m_EditorClassIdentifier: 
+  stageProgress: 0
+  gold: 0
+  willItemCount: 0
+  manaItemCount: 0
+  ChessPieces:
+  - code: P0
+    name: "\uD3F0"
+    upgrade: 0
+    isPurchased: 0
+  - code: R0
+    name: "\uB8E9"
+    upgrade: 0
+    isPurchased: 0
+  - code: K0
+    name: "\uB098\uC774\uD2B8"
+    upgrade: 0
+    isPurchased: 0
+  - code: B0
+    name: "\uBE44\uC20D"
+    upgrade: 0
+    isPurchased: 0
+  - code: Z1
+    name: "\uC800\uAE00\uB9C1"
+    upgrade: 0
+    isPurchased: 0
+  - code: O1
+    name: "\uC624\uD06C"
+    upgrade: 0
+    isPurchased: 0
+  - code: K1
+    name: "\uB098\uC774\uD2B8"
+    upgrade: 0
+    isPurchased: 0
+  - code: B1
+    name: "\uBE44\uC20D"
+    upgrade: 0
+    isPurchased: 0
+  - code: B0R
+    name: "\uB808\uB4DC \uBE44\uC20D"
+    upgrade: 0
+    isPurchased: 0
+  - code: B0B
+    name: "\uBE14\uB8E8 \uBE44\uC20D"
+    upgrade: 0
+    isPurchased: 0
+  - code: B0G
+    name: "\uADF8\uB9B0 \uBE44\uC20D"
+    upgrade: 0
+    isPurchased: 0
+  Skills:
+  - code: FB
+    name: "\uD30C\uC774\uC5B4\uBCFC"
+    upgrade: 0
+    isPurchased: 0
+  - code: FZ
+    name: "\uD504\uB9AC\uC988 \uC2A4\uD53C\uC5B4"
+    upgrade: 0
+    isPurchased: 0
+  - code: LA
+    name: "\uBE5B\uB098\uB294 \uD654\uC0B4"
+    upgrade: 0
+    isPurchased: 0

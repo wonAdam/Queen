@@ -1,0 +1,542 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 185b5e29f91a76c49af1878d82750e19, type: 3}
+  m_Name: GenericData_SO
+  m_EditorClassIdentifier: 
+  will:
+    upgrades:
+    - cost: 0
+      regenPerSec: 2.5
+    - cost: 0
+      regenPerSec: 2.7
+    - cost: 0
+      regenPerSec: 3
+  mana:
+    upgrades:
+    - cost: 0
+      regenPerSec: 2.5
+    - cost: 0
+      regenPerSec: 2.7
+    - cost: 0
+      regenPerSec: 3
+  ChessPieces:
+  - prefab: {fileID: 3235080167731582373, guid: df3b9541df1564c43bc2d80c5f1b283e,
+      type: 3}
+    code: P0
+    name_kor: "\uD3F0"
+    name_eng: Pawn
+    description: "\uBC14\uB2E4 \uAC74\uB108 \uC678\uAD6D\uC5D0\uC11C \uD30C\uACAC\uB41C
+      \uC6A9\uBCD1, \uD65C\uC5D0 \uB2A5\uD558\uB2E4."
+    health: 25
+    damage: 7
+    speed: 0
+    attackCoolTime: 1
+    skillEffectiveness: 0
+    range: 3
+    placingCoolTime: 3
+    cost: 10
+    moveCoolTime: 5
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 5
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 10
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 15
+      damage: 0
+      skillEffectiveness: 0
+  - prefab: {fileID: 7529282035762881288, guid: d55e3e6932e9584488d2cdbf308615de,
+      type: 3}
+    code: R0
+    name_kor: "\uB8E9"
+    name_eng: Rook
+    description: "\"\uC77C\uB2E8 \uB9CC\uB4E4\uC5B4! \uADF8\uB9AC\uACE0 \uBD80\uC234!
+      ...\uC73C\uC774?\""
+    health: 25
+    damage: 20
+    speed: 0
+    attackCoolTime: 2
+    skillEffectiveness: 0
+    range: 5
+    placingCoolTime: 5
+    cost: 50
+    moveCoolTime: 17
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 3
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 7
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 10
+      skillEffectiveness: 0
+  - prefab: {fileID: 82163057674458531, guid: a65e538a7e9a2ed49922198ee1298d8e, type: 3}
+    code: K0
+    name_kor: "\uB098\uC774\uD2B8"
+    name_eng: Knight
+    description: "\"\uC774 \uC804\uC7C1\uC774 \uB05D\uB098\uBA74 \uADF8\uB140\uC5D0\uAC8C
+      \uACE0\uBC31\uD560 \uAC70\uC57C...\""
+    health: 60
+    damage: 13
+    speed: 0
+    attackCoolTime: 0.75
+    skillEffectiveness: 0
+    range: 1
+    placingCoolTime: 7
+    cost: 30
+    moveCoolTime: 8
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 4
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 8
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 12
+      damage: 0
+      skillEffectiveness: 0
+  - prefab: {fileID: 6349083751971725265, guid: ff91d00b5e480c147ad2528638bdbde5,
+      type: 3}
+    code: B0
+    name_kor: "\uBE44\uC20D"
+    name_eng: Bishop
+    description: "\"\uB098 \uBE44\uC20D, \uB204\uB974\uBA74 \uC5C5\uADF8\uB808\uC774\uB4DC\uB3C4
+      \uAC00\uB2A5\uD558\uB2E4\uB124.\""
+    health: 10
+    damage: 30
+    speed: 0
+    attackCoolTime: 1
+    skillEffectiveness: 0
+    range: 8
+    placingCoolTime: 0
+    cost: 60
+    moveCoolTime: 0
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 3
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 6
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 10
+      skillEffectiveness: 0
+  - prefab: {fileID: 2512147076714982764, guid: 3aa15b0e98f8fe04d8c9536482bd629a,
+      type: 3}
+    code: Z1
+    name_kor: "\uC800\uAE00\uB9C1"
+    name_eng: Zergling
+    description: "\uCD94\uC5B5\uC758 \uC2A4\uD0C0\uD06C\uB798\uD504\uD2B8 \uC800\uAE00\uB9C1
+      \uD45C\uC808 \uC544\uB2C8\uB2E4."
+    health: 20
+    damage: 5
+    speed: 1
+    attackCoolTime: 0.75
+    skillEffectiveness: 0
+    range: 1
+    placingCoolTime: 0
+    cost: 0
+    moveCoolTime: 0
+    goldMin: 10
+    goldMax: 20
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+  - prefab: {fileID: 5352000596956003927, guid: a0fb804e0b2fa0c46a7552fd0d87054b,
+      type: 3}
+    code: O1
+    name_kor: "\uC624\uD06C"
+    name_eng: Orc
+    description: "\uCD94\uC5B5\uC758 \uC6CC\uD06C\uB798\uD504\uD2B8 \uC624\uD06C \uD45C\uC808
+      \uC544\uB2C8\uB2E4."
+    health: 50
+    damage: 15
+    speed: 0.5
+    attackCoolTime: 1.5
+    skillEffectiveness: 0
+    range: 1
+    placingCoolTime: 0
+    cost: 0
+    moveCoolTime: 0
+    goldMin: 15
+    goldMax: 25
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+  - prefab: {fileID: 4293501098643543001, guid: 7d021228254d10c43bd29d0ba7f10985,
+      type: 3}
+    code: K1
+    name_kor: "\uB098\uC774\uD2B8"
+    name_eng: Knight
+    description: "\uC801\uAD70 \uB098\uC774\uD2B8"
+    health: 80
+    damage: 15
+    speed: 1.2
+    attackCoolTime: 1
+    skillEffectiveness: 0
+    range: 1
+    placingCoolTime: 0
+    cost: 0
+    moveCoolTime: 0
+    goldMin: 50
+    goldMax: 60
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+  - prefab: {fileID: 8854494650571443982, guid: 895e04c9cbbd70e4daaad0e9781c5c7d,
+      type: 3}
+    code: B1
+    name_kor: "\uBE44\uC20D"
+    name_eng: Bishop
+    description: "\uC801\uAD70 \uC77C\uBC18 \uBE44\uC20D"
+    health: 30
+    damage: 10
+    speed: 1
+    attackCoolTime: 2
+    skillEffectiveness: 0
+    range: 2
+    placingCoolTime: 0
+    cost: 0
+    moveCoolTime: 0
+    goldMin: 100
+    goldMax: 120
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+  - prefab: {fileID: 2468908224891183907, guid: 512d9d06cebaf0c4ba15c71dd8e1d583,
+      type: 3}
+    code: B0R
+    name_kor: "\uB808\uB4DC \uBE44\uC20D"
+    name_eng: Red Bishop
+    description: "\uC544\uAD70 \uBE68\uAC04 \uBE44\uC20D"
+    health: 10
+    damage: 40
+    speed: 0
+    attackCoolTime: 2
+    skillEffectiveness: 0
+    range: 8
+    placingCoolTime: 0
+    cost: 20
+    moveCoolTime: 0
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 3
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 6
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 10
+      skillEffectiveness: 0
+  - prefab: {fileID: 1722902169722555989, guid: d1e178e85970227478297cd6b41a972c,
+      type: 3}
+    code: B0B
+    name_kor: "\uBE14\uB8E8 \uBE44\uC20D"
+    name_eng: Blue Bishop
+    description: "\uC544\uAD70 \uD30C\uB780 \uBE44\uC20D"
+    health: 10
+    damage: 30
+    speed: 0
+    attackCoolTime: 1
+    skillEffectiveness: 0.5
+    range: 8
+    placingCoolTime: 0
+    cost: 20
+    moveCoolTime: 0
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 3
+      skillEffectiveness: 0.1
+    - cost: 0
+      health: 0
+      damage: 6
+      skillEffectiveness: 0.2
+    - cost: 0
+      health: 0
+      damage: 10
+      skillEffectiveness: 0.3
+  - prefab: {fileID: 2468908224891183907, guid: a693e34d164067f47aaa3960648a5e8e,
+      type: 3}
+    code: B0G
+    name_kor: "\uADF8\uB9B0 \uBE44\uC20D"
+    name_eng: Green Bishop
+    description: "\uC544\uAD70 \uCD08\uB85D \uBE44\uC20D"
+    health: 30
+    damage: 30
+    speed: 0
+    attackCoolTime: 2
+    skillEffectiveness: 0.3
+    range: 8
+    placingCoolTime: 0
+    cost: 20
+    moveCoolTime: 0
+    goldMin: 0
+    goldMax: 0
+    upgrades:
+    - cost: 0
+      health: 0
+      damage: 0
+      skillEffectiveness: 0
+    - cost: 0
+      health: 0
+      damage: 3
+      skillEffectiveness: 0.1
+    - cost: 0
+      health: 0
+      damage: 6
+      skillEffectiveness: 0.2
+    - cost: 0
+      health: 0
+      damage: 10
+      skillEffectiveness: 0.3
+  Skills:
+  - code: FB
+    name_kor: "\uD30C\uC774\uC5B4\uBCFC"
+    name_eng: Fireball
+    description: "\uC804\uC7A5\uC744 \uBD88\uD0DC\uC6B4\uB2E4."
+    damage: 19
+    coolTime: 1
+    duration: 0
+    cost: 30
+    prefab: {fileID: 4077623672610491327, guid: 0d1228da70f3f734d8ffce63b5e2e7a3,
+      type: 3}
+    previewPrefab: {fileID: 4077623672610491327, guid: ecf1d9df83de0304ba2b8f749b38cc7a,
+      type: 3}
+    thumbnail_noMana: {fileID: 21300000, guid: a10572cf01cc4da4b9a9c3d59c401915, type: 3}
+    thumbnail_yesMana: {fileID: 21300000, guid: 917a6cade8888a845a62825cf3aee475,
+      type: 3}
+    upgrades:
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+  - code: FZ
+    name_kor: "\uD504\uB9AC\uC988 \uC2A4\uD53C\uC5B4"
+    name_eng: Freeze Spear
+    description: "\uC804\uC7A5\uC744 \uC5BC\uB9B0\uB2E4."
+    damage: 5
+    coolTime: 3
+    duration: 0
+    cost: 50
+    prefab: {fileID: 955779441988808099, guid: 59b01340b378e2a4eaa371fc709b0462, type: 3}
+    previewPrefab: {fileID: 955779441988808099, guid: 24ce957577995b6419748cdbd4170f2e,
+      type: 3}
+    thumbnail_noMana: {fileID: 21300000, guid: 363832ba76ce39f4896db3e6cb48c6b6, type: 3}
+    thumbnail_yesMana: {fileID: 21300000, guid: eb609696e32179641b3cd7da77d3b810,
+      type: 3}
+    upgrades:
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+  - code: LA
+    name_kor: "\uBE5B\uB098\uB294 \uD654\uC0B4"
+    name_eng: Lightening Arrow
+    description: "\uBC88\uAC1C\uB97C \uBA38\uAE08\uC740 \uD654\uC0B4"
+    damage: 5000
+    coolTime: 45
+    duration: 0
+    cost: 60
+    prefab: {fileID: 7171334810312705337, guid: c9d77b73c5536e144b14b1b7dd7992a7,
+      type: 3}
+    previewPrefab: {fileID: 7171334810312705337, guid: d9b370c20ae99fe45866850534d179ed,
+      type: 3}
+    thumbnail_noMana: {fileID: 21300000, guid: 20779912daf1cf0499962e598d4366e8, type: 3}
+    thumbnail_yesMana: {fileID: 21300000, guid: 896bc9b2bc4d68a459596735080aca70,
+      type: 3}
+    upgrades:
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
+    - cost: 0
+      damage: 0
+      coolTime: 0
+      duration: 0
