@@ -40,6 +40,6 @@ Game Designer (3) : Yoo Jae Young, Park Sol Hwi, Lim Jae Han
 
 Game Artists (3) : Kim Kyeong Won, Kim Min Ah, Ji Min Chae
 
-Game Programmers (4) : Won Dong Hyun(wonAdam), Park Sol Hwi([solhwi](https://github.com/solhwi)), Kim Sun Hye([mocha-kim](https://github.com/mocha-kim)), Kim Yae Chan
+Game Programmers (4) : Won Dong Hyun([wonAdam](https://github.com/wonAdam)), Park Sol Hwi([solhwi](https://github.com/solhwi)), Kim Sun Hye([mocha-kim](https://github.com/mocha-kim)), Kim Yae Chan
 
 Sound Designer (1) : Hong Soo Min
