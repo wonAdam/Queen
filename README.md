@@ -5,6 +5,7 @@
 I have worked on this project in 2020 summer vacation with ExP Make Team, Hongik Univ. Game Dev Club.
 
 > 출시 링크 : https://play.google.com/store/apps/details?id=com.exp.queen
+
 Release Link
 
 
