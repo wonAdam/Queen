@@ -29,7 +29,7 @@ Dev Period : 2020.07.20 ~ 2021.01.17
 
 > **그래픽** : 김경원, 김민아, 지민채
 
-> **프로그래밍** : 원동현(wonAdam), 박솔휘(기획겸 프로그래머), 김선혜, 김예찬
+> **프로그래밍** : 원동현([wonAdam](https://github.com/wonAdam)), 박솔휘[(solhwi)](https://github.com/solhwi), 김선혜[(mocha-kim)](https://github.com/mocha-kim), 김예찬
 
 > **사운드** : 홍수민
 
